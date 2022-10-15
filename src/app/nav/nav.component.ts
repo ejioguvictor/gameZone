@@ -18,4 +18,9 @@ export class NavComponent implements OnInit {
 
     this.modal.toggleModal()
   }
+  closeModal($event: Event){
+    $event.preventDefault()
+
+    !this.modal.toggleModal()
+  }
 }
