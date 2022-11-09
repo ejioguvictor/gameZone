@@ -8,7 +8,7 @@ visible: boolean;
   providedIn: 'root'
 })
 export class ModalService {
-  public modals: iModal[] = []
+  private  modals: iModal[] = []
 
   constructor( ) {}
  
